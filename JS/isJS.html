@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>testing</title>
+  </head>
+  <body>
+    <script>
+      const body = document.querySelector("body");
+
+      const title = document.createElement("h1");
+      title.innerText = "Neefjes van Donald Duck";
+      body.appendChild(title);
+
+      const ongeordend = document.createElement("ul");
+      body.appendChild(ongeordend);
+
+      const lijstitem = document.createElement("li");
+      lijstitem.innerText = "kwik";
+      ongeordend.appendChild(lijstitem);
+
+      const lijstitem2 = document.createElement("li");
+      lijstitem2.innerText = "kwek";
+      ongeordend.appendChild(lijstitem2);
+
+      const lijstitem3 = document.createElement("li");
+      lijstitem3.innerText = "kwak";
+      ongeordend.appendChild(lijstitem3);
+    </script>
+  </body>
+</html>
